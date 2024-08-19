@@ -25,7 +25,7 @@ public class Rook extends Piece {
     public boolean isMoveLegal(Location nextMove){
         //Rooks can only move horizontally or vertically
         int eq = 0;
-        for(int i = 0; i < 2; i++)
+        for(int i = 0; i < 3; i++)
             if(nextMove.coords[i] == this.loc.coords[i]) eq++;
         return eq == 2;
     }

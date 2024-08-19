@@ -1,0 +1,5 @@
+RIGHT = 0
+LEFT = 1
+
+WHITE = false
+BLACK = true
