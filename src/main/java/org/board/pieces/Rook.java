@@ -9,10 +9,10 @@ import java.util.ArrayList;
 public class Rook extends Piece {
     Location loc;
     boolean colour;
-    public Rook(boolean colour, Board.Dimension dim, int rOrL){
+    public Rook(boolean colour, Board board, int rOrL){
         this.colour = colour;
-        if(rOrL == 0) loc = new Location(dim.x, dim.y, dim.z);
-        else if(rOrL == 1) loc = new Location(dim.x, 0, dim.z);
+        if(rOrL == 0) loc = new Location(board.dim.x, board.dim.y, board.dim.z);
+        else if(rOrL == 1) loc = new Location(board.dim.x, 0, board.dim.z);
 
     }
     @Override

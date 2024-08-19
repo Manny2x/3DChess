@@ -1,4 +1,0 @@
-Basic Chess Rules with a few Differences
-
-You can move your piece in any legal direction
-Pawns cannot move vertically twice in a row
