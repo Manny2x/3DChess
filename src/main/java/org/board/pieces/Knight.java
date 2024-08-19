@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Knight extends Piece {
     @Override
     public char getSign() {
-        return 0;
+        return 'k';
     }
 
     @Override

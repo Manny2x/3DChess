@@ -9,7 +9,6 @@ public abstract class Piece {
     public abstract Location getLocation();
     public abstract void setLocation(Location location);
 
-
     public abstract boolean getColour();
     public boolean getState(Board board){
         if(!this.getColour()) return board.white.contains(this);
